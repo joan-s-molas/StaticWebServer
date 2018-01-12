@@ -1,0 +1,14 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": true,
+    "LogLevel": {
+      "Default": "Debug"
+    }
+  },
+  "WebHost": {
+    "DefaultDocument": "index.html", //default index document to look for
+    "NonStoreCertificate": "certificates.pfx", //certificate file to use if we cannot find the cert in the cert store
+    "CertString": "localhost", //hostname to look for in the certificate store, acts like a wildcard, no need to put the full FQDN
+    "ContentRoot": "C:\\wwwstatic" //full path of the static contents  
+  }
+}
