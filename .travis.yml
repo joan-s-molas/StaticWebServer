@@ -1,4 +1,6 @@
 language: csharp
+dist: trusty
+sudo: required
 solution: StaticWebServer.sln
 script:
   - dotnet restore
