@@ -6,3 +6,4 @@ sudo: required
 solution: StaticWebServer.sln
 script:
   - dotnet restore
+  - dotnet test ./StaticWebServer/StaticWebServer.csproj -c Release
